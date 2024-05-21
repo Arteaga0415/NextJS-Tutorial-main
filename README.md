@@ -1,5 +1,10 @@
-## Next.js App Router Course - Starter
+## Next.js App for flexmate aplication
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+# To get started
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+* Create a vercel postgres DB
+* Copy the .env.local secrets to the .env file
+* Use open ssl to create a AUTH_SECRET to protect cookies and asign a AUTH_URL to the correct URl (ex: AUTH_URL=http://localhost:3000/api/auth)
+* Use the command below to create the auth secret
+``` openssl rand -base64 32 ```
+
